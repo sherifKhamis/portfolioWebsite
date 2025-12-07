@@ -6,7 +6,7 @@ Dies ist der Quellcode für meine persönliche Portfolio-Website, erstellt mit V
 
 -   **Komponentenbasiert:** Gebaut mit Vue.js für eine modulare und wartbare Codebasis.
 -   **Modernes Tooling:** Nutzt Vite für eine schnelle Entwicklung und einen optimierten Build-Prozess.
--   **Responsives Design:** (In Arbeit) Passt sich an verschiedene Bildschirmgrößen an.
+-   **Responsives Design:** Passt sich an verschiedene Bildschirmgrößen an.
 -   **Einfach anpassbar:** Inhalte und Designdetails können leicht geändert werden.
 
 ## Tech-Stack
