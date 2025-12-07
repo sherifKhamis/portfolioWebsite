@@ -89,5 +89,27 @@ img {
   width: 100%;
   border-radius: 4px;
 }
-</style>
 
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .image-wrapper {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  #about {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  ul {
+    grid-template-columns: 1fr;
+  }
+  #about {
+    padding: 60px 0;
+  }
+}
+</style>

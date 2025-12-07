@@ -40,5 +40,16 @@ p {
   color: #ffca28;
   text-decoration: none;
 }
-</style>
 
+@media (max-width: 768px) {
+  #contact {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #contact {
+    padding: 60px 0;
+  }
+}
+</style>

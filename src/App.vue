@@ -25,4 +25,22 @@ import './assets/main.css';
 main {
   padding: 0px 150px;
 }
+
+@media (max-width: 1024px) {
+  main {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 0px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0px 25px;
+  }
+}
 </style>

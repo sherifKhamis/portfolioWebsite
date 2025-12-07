@@ -52,5 +52,40 @@
   color: #ffca28;
   text-decoration: none;
 }
-</style>
 
+@media (max-width: 1024px) {
+  .name {
+    font-size: 70px;
+  }
+  .subtitle {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  #intro {
+    padding: 80px 0;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #intro {
+    padding: 60px 0;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .description {
+    max-width: 100%;
+  }
+}
+</style>

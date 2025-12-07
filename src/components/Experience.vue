@@ -146,5 +146,35 @@ li::before {
   left: 0px;
   color: #ffca28;
 }
-</style>
 
+@media (max-width: 768px) {
+  #experience {
+    padding: 80px 0;
+  }
+  .tabs {
+    flex-direction: column;
+  }
+  .tab-list {
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+  .tab {
+    border-left: none;
+    border-bottom: 2px solid #233554;
+  }
+  .tab.active {
+    border-bottom-color: #ffca28;
+  }
+  .tab-panel {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #experience {
+    padding: 60px 0;
+  }
+}
+</style>

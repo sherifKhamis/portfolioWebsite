@@ -54,5 +54,25 @@
     transform: rotate(360deg);
   }
 }
-</style>
 
+@media (max-width: 768px) {
+  #projects {
+    padding: 80px 0;
+  }
+  .in-progress-container {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #projects {
+    padding: 60px 0;
+  }
+  .in-progress-container {
+    padding: 30px;
+  }
+  .in-progress-container p {
+    font-size: 16px;
+  }
+}
+</style>
