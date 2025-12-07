@@ -73,6 +73,20 @@ Die Hauptfarben sind in den CSS-Stilen der jeweiligen Komponenten definiert. Die
 
 ## Deployment
 
+### GitHub Pages
+
+Die Website wird automatisch auf GitHub Pages bereitgestellt, wenn Änderungen in den `main`-Branch gepusht werden. Das GitHub Actions Workflow (`.github/workflows/deploy.yml`) übernimmt dabei:
+
+1. Installation der Abhängigkeiten
+2. Build der Anwendung mit Vite
+3. Deployment auf GitHub Pages
+
+Die Website ist dann unter `https://sherifkhamis.github.io/portfolioWebsite/` erreichbar.
+
+**Wichtig:** Stellen Sie sicher, dass in den Repository-Einstellungen unter "Settings > Pages" die Option "GitHub Actions" als Quelle ausgewählt ist.
+
+### Manuelles Deployment
+
 Um eine produktionsreife Version der Website zu erstellen, führen Sie den folgenden Befehl aus:
 
 ```bash
