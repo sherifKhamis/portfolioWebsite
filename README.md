@@ -83,7 +83,6 @@ Die Website wird automatisch auf GitHub Pages bereitgestellt, wenn Änderungen i
 
 Die Website ist dann unter `https://sherifkhamis.github.io/portfolioWebsite/` erreichbar.
 
-**Wichtig:** Stellen Sie sicher, dass in den Repository-Einstellungen unter "Settings > Pages" die Option "GitHub Actions" als Quelle ausgewählt ist.
 
 ### Manuelles Deployment
 
